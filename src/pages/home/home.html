@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <h2 style="text-align: center;">Portal Mobile</h2>
+  <img class="icone" src="./assets/imgs/icon-app.png" alt="icone-portal">
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Usuário ou Email</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <button class="botao" (click)="onAcessar()" ion-button>Acessar</button>
+  </ion-list>
+</ion-content>
